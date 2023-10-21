@@ -1,6 +1,7 @@
 import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import NavBar from "./components/header-and-footer/header";
+import Header from "./components/header-and-footer/header";
+import Footer from "./components/header-and-footer/footer";
 
 // Import the necessary components/pages
 import Home from './components/home/Home';
@@ -10,12 +11,13 @@ const App: React.FC = () => {
   return (
     <Router>
       <div>
-      <NavBar />
+      <Header />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/product/:id" element={<ProductDetails />} />
           {/* ... add more routes as necessary */}
         </Routes>
+        <Footer />
       </div>
     </Router>
   );

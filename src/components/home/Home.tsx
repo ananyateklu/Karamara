@@ -32,14 +32,6 @@ const BrandsSection = () => {
   );
 };
 
-// FooterBanner.js
-const FooterBanner = () => {
-  return (
-    <div className="footer-banner">
-      <p>Promotional Text...</p>
-    </div>
-  );
-};
 
 const HomePage = () => {
   return (
@@ -47,7 +39,6 @@ const HomePage = () => {
       <MainBanner />
       <DealsSection />
       <BrandsSection />
-      <FooterBanner />
     </div>
   );
 };
