@@ -1,0 +1,56 @@
+
+
+/* MainBanner.css */
+.main-banner {
+    background-color: #f8f8f8;
+    padding: 50px 5%;
+    text-align: center;
+}
+
+.main-banner h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.main-banner p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+.main-banner button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* DealsSection.css */
+.deals-section {
+    padding: 50px 5%;
+}
+
+.deals-section h3 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+/* BrandsSection.css */
+.brands-section {
+    background-color: #f8f8f8;
+    padding: 50px 5%;
+}
+
+.brands-section h3 {
+    font-size: 2em;
+    margin-bottom: 30px;
+}
+
+/* FooterBanner.css */
+.footer-banner {
+    padding: 50px 5%;
+    text-align: center;
+    background-color: #333;
+    color: #fff;
+}
