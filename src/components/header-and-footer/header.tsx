@@ -28,14 +28,15 @@ const NavBar = () => {
         <div className="nav-info" onClick={toggleCart}>
           <img src="https://img.icons8.com/color/48/shopping-cart--v1.png" alt="shopping-cart--v1" /> <p>0 items</p>
         </div>
-        <div className='user-info'>
-          <img src={avatar} alt='user' className='avatar'></img><p>John Anderson</p>
-        </div>
         <div className="burger-icon" onClick={toggleSidebar}>
           <div className="burger-line"></div>
           <div className="burger-line"></div>
           <div className="burger-line"></div>
         </div>
+        <div className='user-info'>
+          <img src={avatar} alt='user' className='avatar'></img><p>John Anderson</p>
+        </div>
+        
       </div>
     </>
   );
