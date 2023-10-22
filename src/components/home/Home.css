@@ -2,7 +2,7 @@
 .main-banner {
   background: url("../../assets/bag1.png") no-repeat center/cover;
   height: 400px;
-  width: 50%;
+  width: 45%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -44,9 +44,10 @@
 }
 
 .secondary-banner {
+  background: url("../../assets/sneaker3.png") no-repeat center/cover;
   background-color: #008b8b94; /* or any other color, placeholder for now */
   height: 400px; /* same height as main-banner */
-  width: 25%; /* 1/3 of the main-banner's width (which is 45%) */
+  width: 30%; /* 1/3 of the main-banner's width (which is 45%) */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -56,8 +57,22 @@
   color: white;
 }
 
+.secondary-banner h2 {
+  margin: 0;
+  font-size: 2em;
+}
+
+.secondary-banner h3 {
+  margin: 10px 0;
+  font-size: 1.5em;
+}
+
+.secondary-banner p {
+  font-size: 1em;
+}
+
 .deals-section {
-  padding: 40px 40px;
+  padding: 0px 40px 60px 40px;
 }
 
 .deals-grid {
@@ -86,6 +101,14 @@
   margin: 10px 0;
 }
 
+.product-name {
+  font-size: 1em;
+  margin: 10px 0 0px 50px;
+  position: absolute;
+  margin-top: -40px;
+  color: white;
+}
+
 .item-price {
   font-size: 1.1em;
   font-weight: 600;
@@ -98,15 +121,35 @@
 }
 
 /* BrandsSection.css */
-.brands-section {
-  background-color: #f8f8f8;
-  padding: 50px 5%;
+.products-section {
+  background-color: transparent;
+  padding: 0px 0px;
+  margin-bottom: 40px;
 }
 
-.brands-section h3 {
+.products-section h3 {
   font-size: 2em;
   margin-bottom: 30px;
 }
+
+.products-grid {
+  display: flex;
+  gap: 0px;
+  flex-wrap: wrap;
+}
+
+.product-item {
+  width: 25%;
+  padding: 0px;
+  margin: 0px;
+  text-align: center;
+}
+
+.product-item img {
+  width: 100%;
+  height: auto;
+}
+
 
 /* General Responsive Styles */
 
@@ -136,6 +179,10 @@
     width: 45%;
   }
 
+  .product-item {
+    width: 45%;
+  }
+
   .brands-section {
     padding: 40px 5%;
   }
@@ -151,6 +198,10 @@
   .deal-item {
     width: 30%;
   }
+
+    .product-item {
+        width: 30%;
+    }
 }
 
 /* Extra small devices (phones, less than 768px) */
@@ -161,6 +212,13 @@
   }
 
   .deal-item {
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 20px;
+  }
+
+  .product-item {
     width: 80%;
     margin-left: 10%;
     margin-right: 10%;
